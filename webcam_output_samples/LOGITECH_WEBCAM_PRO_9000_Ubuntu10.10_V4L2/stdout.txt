@@ -1,0 +1,34 @@
+Video device name : UVC Camera (046d:0809), bus info : usb-0000:02:03.0-1, driver name : uvcvideo, driver version : 256, capabilities identifier : 67108865, is a video capture device, supports the streaming I/O methods. 
+Video device current input number : 0. 
+Device video input number : 0, name : Camera 1, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband, supported standards : 
+
+ioctl() VIDIOC_S_INPUT warning : Invalid argument. 
+An unsupported video input setting was specified. 
+Video input used : 0. 
+Device video input number : 0, name : Camera 1, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband. 
+ioctl() VIDIOC_QUERYSTD warning : Invalid argument. 
+ioctl() VIDIOC_G_STD warning : Invalid argument. 
+ioctl() VIDIOC_S_STD warning : Invalid argument. 
+ioctl() VIDIOC_G_STD warning : Invalid argument. 
+Video standard used : 
+Video device current data format type identifier : 1, video capture type, image width : 320, image height : 240, FOURCC identifier : 1448695129, FOURCC code : YUYV, bytes per line : 640, image size : 153600 bytes, color space : SRGB, progressive format. 
+Video device supported data formats : 
+     YUV 4:2:2 (YUYV) (format number : 0, type identifier : 1, FOURCC identifier : 1448695129, FOURCC code : YUYV, video capture type)
+     MJPEG (format number : 1, type identifier : 1, FOURCC identifier : 1196444237, FOURCC code : MJPG, video capture type, compressed format)
+
+Video data format used : 1, video capture type, image width : 320, image height : 240, FOURCC identifier : 1448695129, FOURCC code : YUYV, bytes per line : 640, image size : 153600 bytes, color space : SRGB, progressive format. 
+Video device standard controls : 
+     Control number : 9963776, name : Brightness, value : 128, type : integer, default value : 128, range : {0:1:255}
+     Control number : 9963777, name : Contrast, value : 32, type : integer, default value : 32, range : {0:1:255}
+     Control number : 9963778, name : Saturation, value : 28, type : integer, default value : 28, range : {0:1:255}
+     Control number : 9963788, name : White Balance Temperature, Auto, value : 1, type : boolean, default value : 1
+     Control number : 9963795, name : Gain, value : 254, type : integer, default value : 0, range : {0:1:255}
+     Control number : 9963800, name : Power Line Frequency, value : 1, type : menu, default value : 2, menu items : 
+          [0] Disabled
+          [1] 50 Hz
+          [2] 60 Hz
+     Control number : 9963802, name : White Balance Temperature, value : 10000, type : integer, default value : 4000, range : {0:10:10000}
+     Control number : 9963803, name : Sharpness, value : 191, type : integer, default value : 191, range : {0:1:255}
+     Control number : 9963804, name : Backlight Compensation, value : 1, type : integer, default value : 1, range : {0:1:1}
+
+Video device buffers allocated : 8. 

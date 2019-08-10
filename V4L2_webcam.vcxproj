@@ -35,9 +35,6 @@
   <ItemGroup>
     <None Include="Makefile" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="CHANGELOG.TXT" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}</ProjectGuid>
     <Keyword>Linux</Keyword>

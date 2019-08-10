@@ -1,0 +1,83 @@
+Video device name : EM2860/SAA711X Reference Design, bus info : usb-0000:02:03.0-1, driver name : em28xx, driver version : 258, capabilities identifier : 84017233, is a video capture device, is a raw VBI capture device (Teletext and Closed Caption data), is a sliced VBI capture device, has audio support, supports the read() and/or write() I/O methods, supports the streaming I/O methods. 
+Video device current input number : 1. 
+Device video input number : 0, name : S-Video, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband, supports S_STD (standard choice), supported standards : 
+     NTSC (identifier : 45056, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M (identifier : 4096, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M-JP (identifier : 8192, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M-KR (identifier : 32768, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-443 (identifier : 16384, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     PAL (identifier : 255, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-BG (identifier : 7, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-H (identifier : 8, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-I (identifier : 16, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-DK (identifier : 224, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-M (identifier : 256, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     PAL-N (identifier : 512, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-Nc (identifier : 1024, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-60 (identifier : 2048, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     SECAM (identifier : 16711680, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-B (identifier : 65536, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-G (identifier : 262144, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-H (identifier : 524288, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-DK (identifier : 3276800, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-L (identifier : 4194304, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-Lc (identifier : 8388608, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+Device video input number : 1, name : Composite1, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband, supports S_STD (standard choice), supported standards : 
+     NTSC (identifier : 45056, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M (identifier : 4096, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M-JP (identifier : 8192, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-M-KR (identifier : 32768, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     NTSC-443 (identifier : 16384, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     PAL (identifier : 255, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-BG (identifier : 7, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-H (identifier : 8, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-I (identifier : 16, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-DK (identifier : 224, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-M (identifier : 256, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     PAL-N (identifier : 512, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-Nc (identifier : 1024, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-60 (identifier : 2048, frame period : 1001/30000s (29Hz), total lines per frame including blanking : 525)
+     SECAM (identifier : 16711680, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-B (identifier : 65536, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-G (identifier : 262144, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-H (identifier : 524288, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-DK (identifier : 3276800, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-L (identifier : 4194304, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     SECAM-Lc (identifier : 8388608, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+
+Video input used : 1. 
+Device video input number : 1, name : Composite1, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband. 
+ioctl() VIDIOC_QUERYSTD warning : Invalid argument. 
+Video device current standard : 
+     PAL (identifier : 255, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-BG (identifier : 7, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-H (identifier : 8, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-I (identifier : 16, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-DK (identifier : 224, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+Video standard used : 
+     PAL (identifier : 255, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-BG (identifier : 7, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-H (identifier : 8, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-I (identifier : 16, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+     PAL-DK (identifier : 224, frame period : 1/25s (25Hz), total lines per frame including blanking : 625)
+Video device current data format type identifier : 1, video capture type, image width : 320, image height : 240, FOURCC identifier : 1448695129, FOURCC code : YUYV, bytes per line : 640, image size : 153600 bytes, color space : NTSC/PAL SMPTE170M, images contain both fields interleaved line by line (M/NTSC transmits the bottom field first, all other standards the top field first). 
+Video device supported data formats : 
+     16 bpp YUY2, 4:2:2, packed (format number : 0, type identifier : 1, FOURCC identifier : 1448695129, FOURCC code : YUYV, video capture type)
+     16 bpp RGB 565, LE (format number : 1, type identifier : 1, FOURCC identifier : 1346520914, FOURCC code : RGBP, video capture type)
+     8 bpp Bayer BGBG..GRGR (format number : 2, type identifier : 1, FOURCC identifier : 825770306, FOURCC code : BA81, video capture type)
+     8 bpp Bayer GRGR..BGBG (format number : 3, type identifier : 1, FOURCC identifier : 1195528775, FOURCC code : GRBG, video capture type)
+     8 bpp Bayer GBGB..RGRG (format number : 4, type identifier : 1, FOURCC identifier : 1196573255, FOURCC code : GBRG, video capture type)
+     12 bpp YUV411 (format number : 5, type identifier : 1, FOURCC identifier : 1345401140, FOURCC code : 411P, video capture type)
+
+Video data format used : 1, video capture type, image width : 320, image height : 240, FOURCC identifier : 1448695129, FOURCC code : YUYV, bytes per line : 640, image size : 153600 bytes, color space : NTSC/PAL SMPTE170M, images contain both fields interleaved line by line (M/NTSC transmits the bottom field first, all other standards the top field first). 
+Video device standard controls : 
+     Control number : 9963776, name : Brightness, value : 128, type : integer, default value : 128, range : {0:1:255}
+     Control number : 9963777, name : Contrast, value : 64, type : integer, default value : 64, range : {0:1:127}
+     Control number : 9963778, name : Saturation, value : 64, type : integer, default value : 64, range : {0:1:127}
+     Control number : 9963779, name : Hue, value : 0, type : integer, default value : 0, range : {-128:1:127}
+     Control number : 9963781, name : Volume, value : 31, type : integer, default value : 31, range : {0:1:31}
+     Control number : 9963785, name : Mute, value : 1, type : boolean, default value : 1
+     Control number : 9963805, name : Chroma AGC, value : 1, type : boolean, default value : 1
+     Control number : 9963812, name : Chroma Gain, value : 53, type : integer, default value : 48, range : {0:1:127}
+
+Video device buffers allocated : 8. 

@@ -27,7 +27,4 @@
   <ItemGroup>
     <None Include="Makefile" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="CHANGELOG.TXT" />
-  </ItemGroup>
 </Project>

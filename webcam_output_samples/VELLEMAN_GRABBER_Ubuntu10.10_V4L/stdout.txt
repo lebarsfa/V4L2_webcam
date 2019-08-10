@@ -1,0 +1,31 @@
+Video device name : EM2860/SAA711X Reference Design, number of channels : 2, number of audio devices : 0, can capture to memory, has teletext. 
+Video device channel number : 0, name : S-Video, number of tuners : 0, norm identifier : 0, is a camera, norm : PAL, supported norms : 
+     PAL
+     NTSC
+     SECAM
+     AUTO
+Video device channel number : 1, name : Composite1, number of tuners : 0, norm identifier : 3, is a camera, norm : AUTO, supported norms : 
+     PAL
+     NTSC
+     SECAM
+     AUTO
+
+Channel used : 1, norm identifier : 0, norm : PAL. 
+Video device current capture window x coordinate : 0, y coordinate : 0, width : 720, height : 576, host order RGB32 value for the chroma key : 0, flags : 0, pointer address to a list of clipping rectangles : 0, number of clipping rectangles : 0. 
+Video device current image brightness : 32896, hue : 32896, colour : 33026, contrast : 33026, whiteness : 0, depth : 16, palette identifier : 8, palette : YUYV. 
+Video device supported depth and palette : 
+     16 bpp, RGB565
+     16 bpp, YUYV
+     12 bpp, YUV411P
+
+Image brightness used : 32896, hue : 32896, colour : 33026, contrast : 33026, whiteness : 0, depth : 16, palette identifier : 8, palette : YUYV. 
+Video device memory buffer number of bytes to map : 6651904, number of frames : 8, offset of each frame : 
+     Frame 0 : 0
+     Frame 1 : 831488
+     Frame 2 : 1662976
+     Frame 3 : 2494464
+     Frame 4 : 3325952
+     Frame 5 : 4157440
+     Frame 6 : 4988928
+     Frame 7 : 5820416
+
