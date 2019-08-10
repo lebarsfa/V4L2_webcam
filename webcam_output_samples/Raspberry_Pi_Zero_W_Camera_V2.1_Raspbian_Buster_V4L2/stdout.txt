@@ -1,0 +1,67 @@
+Video device name : mmal service 16.1, bus info : platform:bcm2835-v4l2, driver name : bm2835 mmal, driver version : 267066, capabilities identifier : 2233466885, is a video capture device, can do video overlay, supports the read() and/or write() I/O methods, supports the streaming I/O methods. 
+Video device current input number : 0. 
+Device video input number : 0, name : Camera 0, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband, supported standards : 
+
+ioctl() VIDIOC_S_INPUT warning : Invalid argument. 
+An unsupported video input setting was specified. 
+Video input used : 0. 
+Device video input number : 0, name : Camera 0, type identifier : 2, associated tuner number (if tuner) : 0, is analog baseband. 
+ioctl() VIDIOC_QUERYSTD warning : Inappropriate ioctl for device. 
+ioctl() VIDIOC_G_STD warning : Inappropriate ioctl for device. 
+ioctl() VIDIOC_S_STD warning : Inappropriate ioctl for device. 
+ioctl() VIDIOC_G_STD warning : Inappropriate ioctl for device. 
+Video standard used : 
+ioctl() VIDIOC_CROPCAP warning : Inappropriate ioctl for device. 
+Video device current data format type identifier : 1, video capture type, image width : 1024, image height : 768, FOURCC identifier : 1195724874, FOURCC code : JPEG, bytes per line : 0, image size : 786432 bytes, color space identifier : 7, color space : JPEG, field identifier : 1, field : progressive format. 
+Video device supported data formats : 
+     Planar YUV 4:2:0 (format number : 0, type identifier : 1, FOURCC identifier : 842093913, FOURCC code : YU12, video capture type)
+     YUYV 4:2:2 (format number : 1, type identifier : 1, FOURCC identifier : 1448695129, FOURCC code : YUYV, video capture type)
+     24-bit RGB 8-8-8 (format number : 2, type identifier : 1, FOURCC identifier : 859981650, FOURCC code : RGB3, video capture type)
+     JFIF JPEG (format number : 3, type identifier : 1, FOURCC identifier : 1195724874, FOURCC code : JPEG, video capture type, compressed format)
+     H.264 (format number : 4, type identifier : 1, FOURCC identifier : 875967048, FOURCC code : H264, video capture type, compressed format)
+     Motion-JPEG (format number : 5, type identifier : 1, FOURCC identifier : 1196444237, FOURCC code : MJPG, video capture type, compressed format)
+     YVYU 4:2:2 (format number : 6, type identifier : 1, FOURCC identifier : 1431918169, FOURCC code : YVYU, video capture type)
+     VYUY 4:2:2 (format number : 7, type identifier : 1, FOURCC identifier : 1498765654, FOURCC code : VYUY, video capture type)
+     UYVY 4:2:2 (format number : 8, type identifier : 1, FOURCC identifier : 1498831189, FOURCC code : UYVY, video capture type)
+     Y/CbCr 4:2:0 (format number : 9, type identifier : 1, FOURCC identifier : 842094158, FOURCC code : NV12, video capture type)
+     24-bit BGR 8-8-8 (format number : 10, type identifier : 1, FOURCC identifier : 861030210, FOURCC code : BGR3, video capture type)
+     Planar YVU 4:2:0 (format number : 11, type identifier : 1, FOURCC identifier : 842094169, FOURCC code : YV12, video capture type)
+     Y/CrCb 4:2:0 (format number : 12, type identifier : 1, FOURCC identifier : 825382478, FOURCC code : NV21, video capture type)
+     32-bit BGRA/X 8-8-8-8 (format number : 13, type identifier : 1, FOURCC identifier : 877807426, FOURCC code : BGR4, video capture type)
+
+Video data format used : 1, video capture type, image width : 320, image height : 240, FOURCC identifier : 1448695129, FOURCC code : YUYV, bytes per line : 640, image size : 153600 bytes, color space identifier : 1, color space : NTSC/PAL SMPTE170M, field identifier : 1, field : progressive format. 
+Video device standard controls : 
+     Control number : 9963776, name : Brightness, value : 50, type : integer, default value : 50, range : {0:1:100}
+     Control number : 9963777, name : Contrast, value : 0, type : integer, default value : 0, range : {-100:1:100}
+     Control number : 9963778, name : Saturation, value : 0, type : integer, default value : 0, range : {-100:1:100}
+     Control number : 9963790, name : Red Balance, value : 1000, type : integer, default value : 1000, range : {1:1:7999}
+     Control number : 9963791, name : Blue Balance, value : 1000, type : integer, default value : 1000, range : {1:1:7999}
+     Control number : 9963796, name : Horizontal Flip, value : 0, type : boolean, default value : 0
+     Control number : 9963797, name : Vertical Flip, value : 0, type : boolean, default value : 0
+     Control number : 9963800, name : Power Line Frequency, value : 1, type : menu, default value : 1, menu items : 
+          [0] Disabled
+          [1] 50 Hz
+          [2] 60 Hz
+          [3] Auto
+     Control number : 9963803, name : Sharpness, value : 0, type : integer, default value : 0, range : {-100:1:100}
+     Control number : 9963807, name : Color Effects, value : 0, type : menu, default value : 0, menu items : 
+          [0] None
+          [1] Black & White
+          [2] Sepia
+          [3] Negative
+          [4] Emboss
+          [5] Sketch
+          [6] Sky Blue
+          [7] Grass Green
+          [8] Skin Whiten
+          [9] Vivid
+          [10] Aqua
+          [11] Art Freeze
+          [12] Silhouette
+          [13] Solarization
+          [14] Antique
+          [15] Set Cb/Cr
+     Control number : 9963810, name : Rotate, value : 0, type : integer, default value : 0, range : {0:90:360}
+     Control number : 9963818, name : Color Effects, CbCr, value : 32896, type : integer, default value : 32896, range : {0:1:65535}
+
+Video device buffers allocated : 4. 
