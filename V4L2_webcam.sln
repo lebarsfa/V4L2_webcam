@@ -1,17 +1,43 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V4L2_webcam", "V4L2_webcam.vcxproj", "{476DBD94-F294-4F8A-8541-45D7E8515D0C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V4L2_webcam", "V4L2_webcam.vcxproj", "{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Linux|Win32 = Linux|Win32
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{476DBD94-F294-4F8A-8541-45D7E8515D0C}.Linux|Win32.ActiveCfg = Linux|Win32
-		{476DBD94-F294-4F8A-8541-45D7E8515D0C}.Linux|Win32.Build.0 = Linux|Win32
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|ARM.Build.0 = Debug|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x64.ActiveCfg = Debug|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x64.Build.0 = Debug|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x64.Deploy.0 = Debug|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x86.ActiveCfg = Debug|x86
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x86.Build.0 = Debug|x86
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Debug|x86.Deploy.0 = Debug|x86
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|ARM.ActiveCfg = Release|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|ARM.Build.0 = Release|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|ARM.Deploy.0 = Release|ARM
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x64.ActiveCfg = Release|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x64.Build.0 = Release|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x64.Deploy.0 = Release|x64
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x86.ActiveCfg = Release|x86
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x86.Build.0 = Release|x86
+		{4AC80B0F-8909-4D91-96C8-ACCD4A78B2C4}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF59855-490A-4ED3-B0A5-ADEB83233230}
 	EndGlobalSection
 EndGlobal

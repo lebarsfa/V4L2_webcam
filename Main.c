@@ -2,6 +2,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <string.h> 
+#include <time.h> 
 #include <errno.h> 
 
 // Linux headers.
@@ -13,7 +14,7 @@
 #include <sys/ioctl.h>
 #include <sys/mman.h>
 #include <linux/types.h>
-#include <linux/videodev.h>
+#include <linux/videodev2.h>
 
 #include "Conversions.h"
 
@@ -638,8 +639,8 @@ int main()
 			if (v_out.type == V4L2_OUTPUT_TYPE_MODULATOR) printf(", is an analog TV modulator");
 			if (v_out.type == V4L2_OUTPUT_TYPE_ANALOG) printf(", is analog baseband");
 			if (v_out.type == V4L2_OUTPUT_TYPE_ANALOGVGAOVERLAY) printf(", is analog with VGA overlay");
-			if (v_out.capabilities & V4L2_OUT_CAP_PRESETS) printf(", supports S_DV_PRESET");
-			if (v_out.capabilities & V4L2_OUT_CAP_CUSTOM_TIMINGS) printf(", supports S_DV_TIMINGS");
+			if (v_out.capabilities & V4L2_OUT_CAP_NATIVE_SIZE) printf(", supports setting native size");
+			if (v_out.capabilities & V4L2_OUT_CAP_DV_TIMINGS) printf(", supports S_DV_TIMINGS");
 			if (v_out.capabilities & V4L2_OUT_CAP_STD) printf(", supports S_STD (standard choice)");
 			if (bEnumAllSupportedVideoOutputsStandards)
 			{
@@ -715,8 +716,8 @@ int main()
 				v_in.index, v_in.name, v_in.type, v_in.tuner);
 			if (v_in.type & V4L2_INPUT_TYPE_TUNER) printf(", use a tuner");
 			if (v_in.type & V4L2_INPUT_TYPE_CAMERA) printf(", is analog baseband");
-			if (v_in.capabilities & V4L2_IN_CAP_PRESETS) printf(", supports S_DV_PRESET");
-			if (v_in.capabilities & V4L2_IN_CAP_CUSTOM_TIMINGS) printf(", supports S_DV_TIMINGS");
+			if (v_in.capabilities & V4L2_IN_CAP_NATIVE_SIZE) printf(", supports setting native size");
+			if (v_in.capabilities & V4L2_IN_CAP_DV_TIMINGS) printf(", supports S_DV_TIMINGS");
 			if (v_in.capabilities & V4L2_IN_CAP_STD) printf(", supports S_STD (standard choice)");
 			if (bEnumAllSupportedVideoInputsStandards)
 			{

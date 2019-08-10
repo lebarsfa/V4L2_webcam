@@ -20,12 +20,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Makefile" />
-    <None Include="CHANGELOG.TXT" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Conversions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CHANGELOG.TXT" />
   </ItemGroup>
 </Project>
