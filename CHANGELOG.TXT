@@ -1,0 +1,8 @@
+2
+Added field user parameter.
+Added the possibility to reset cropping settings.
+Changed some details in print_video_format().
+Changed the default number of frames for the mmap and user pointers from 8 to 4.
+
+1
+Initial version.
