@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "V4L2_webcam", "V4L2_webcam.vcproj", "{476DBD94-F294-4F8A-8541-45D7E8515D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Linux|Win32 = Linux|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476DBD94-F294-4F8A-8541-45D7E8515D0C}.Linux|Win32.ActiveCfg = Linux|Win32
+		{476DBD94-F294-4F8A-8541-45D7E8515D0C}.Linux|Win32.Build.0 = Linux|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
